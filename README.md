@@ -1,4 +1,4 @@
-# 📱 Mobile Utility App - Associate Degree Project
+# 📱 Mobile Utility App - Mobile Project
 
 A comprehensive mobile app built for an **associate degree project**, including 8 useful tools. You can either import it into **Android Studio** or install the **APK** directly on your device.
 
