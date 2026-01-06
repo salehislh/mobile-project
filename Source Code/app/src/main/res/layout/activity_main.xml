@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layoutDirection="ltr"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/Sname"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/GetName"
+        android:layout_width="347dp"
+        android:layout_height="50sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingStart="20dp"
+        android:background="@drawable/edittextback"
+        android:inputType="text"
+        android:autofillHints=""
+        tools:ignore="LabelFor,RtlSymmetry" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Scode"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/GetCode"
+        android:layout_width="347dp"
+        android:layout_height="50sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingStart="20dp"
+        android:maxLength="6"
+        android:background="@drawable/edittextback"
+        android:inputType="number"
+        android:autofillHints=""
+        tools:ignore="LabelFor,RtlSymmetry" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EditTex_Spassword"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/GetPass"
+        android:layout_width="347dp"
+        android:layout_height="50sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingStart="20dp"
+        android:background="@drawable/edittextback"
+        android:inputType="textPassword"
+        android:autofillHints=""
+        tools:ignore="LabelFor,RtlSymmetry,TextFields" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Minimums_pass"
+        android:textStyle="bold"
+        android:textColor="#20C20E"
+        android:paddingTop="15dp"
+        android:paddingStart="30dp"
+
+        tools:ignore="RtlSymmetry" />
+
+    <android.widget.Button
+        android:id="@+id/MainSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="@string/submit"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:background="@drawable/mybutten"
+        />
+
+</LinearLayout>

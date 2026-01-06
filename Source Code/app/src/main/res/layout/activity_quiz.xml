@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    tools:context=".Quiz">
+
+    <TextView
+        android:id="@+id/scure"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_scure"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/QuestionShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edittextback"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="@string/Space"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <androidx.appcompat.widget.ActionMenuView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+
+        tools:ignore="RtlSymmetry">
+        <!--===========================================-->
+        <android.widget.Button
+            android:id="@+id/Result1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutten"
+            android:padding="10dp"
+            android:text="@string/Space"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <android.widget.Button
+            android:id="@+id/Result2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutten"
+            android:padding="10dp"
+            android:text="@string/Space"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <!--===========================================-->
+    </androidx.appcompat.widget.ActionMenuView>
+
+    <androidx.appcompat.widget.ActionMenuView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        tools:ignore="RtlSymmetry">
+        <!--===========================================-->
+        <android.widget.Button
+            android:id="@+id/Result3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutten"
+            android:padding="10dp"
+            android:text="@string/Space"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <android.widget.Button
+            android:id="@+id/Result4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutten"
+            android:padding="10dp"
+            android:text="@string/Space"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <!--===========================================-->
+    </androidx.appcompat.widget.ActionMenuView>
+
+
+    <androidx.appcompat.widget.ActionMenuView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+
+        tools:ignore="RtlSymmetry">
+        <!--===========================================-->
+
+        <android.widget.Button
+            android:id="@+id/Reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/mybutten"
+            android:padding="15dp"
+            android:text="@string/reset"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <!--===========================================-->
+    </androidx.appcompat.widget.ActionMenuView>
+
+</LinearLayout>

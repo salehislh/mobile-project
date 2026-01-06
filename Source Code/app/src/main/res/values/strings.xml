@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Tools</string>
+    <!--activity_main_resources-->
+    <string name="Sname">inter your name:</string>
+    <string name="Scode">inter your Unique code:</string>
+    <string name="EditTex_getname">inter your name</string>
+    <string name="EditTex_getcode">inter your code</string>
+    <string name="EditTex_Spassword">inter your password:</string>
+    <string name="submit">submit</string>
+    <string name="Minimums_pass"><![CDATA[● At least 1 capital letter from A-Z \n● At least 1 small letter from a-z\n● At least 4 numbers from 0–9\n● At least 1 special character \n( %#@}{_-$#@^&*()<>?|/ ) .]]></string>
+    <!--activity_main_resources-->
+
+    <!--activity_menu_resources-->
+    <string name="bt1_Numerical_calculator">Calculator</string>
+    <string name="bt2_2nd_degree_equation">2nd degree equation</string>
+    <string name="bt3_PassGenerator">Password Generator !</string>
+    <string name="bt4_BMI">BMI calculator</string>
+    <string name="bt5_low_high">Which is bigger?</string>
+    <string name="bt6_Quiz">Quiz</string>\
+    <!--activity_menu_resources-->
+
+    <!--activity_numerical_calculator_resources-->
+    <string name="label_input_1">Inter your first Number</string>
+    <string name="label_input_2">Inter your second Number</string>
+    <string name="multiply">*</string>
+    <string name="division">/</string>
+    <string name="add">+</string>
+    <string name="subtract">-</string>
+    <string name="NextPage">Next Page</string>
+    <!--activity_numerical_calculator_resources-->
+
+    <!--activity_bmi_calculator_resources-->
+    <string name="label_weight">Enter your Weight: (وزن)</string>
+    <string name="Hint_weight">76kg</string>
+    <string name="label_height">Enter your Height: (قد)</string>
+    <string name="Hint_height">175cm</string>
+    <!--activity_bmi_calculator_resources-->
+
+    <!--activity_two_nd_degree_equation_resources-->
+    <string name="two_nd_degree_equation_LABEL">محاسبه گر معادله درجه 2</string>
+    <string name="a_hint">a > 0</string>
+    <string name="parameter_a">Inter A:</string>
+    <string name="parameter_b">Inter B:</string>
+    <string name="parameter_c">Inter C:</string>
+    <!--activity_two_nd_degree_equation_resources-->
+
+    <!--activity_small_big_equation_resources-->
+    <string name="LABEL_User_Numbers">How many numbers can you enter?</string>
+    <string name="LABEL_UserInputNumber">Inter Numbers Here:</string>
+    <string name="LABEL_UserNextNumber">Next Number</string>
+    <!--activity_small_big_equation_resources-->
+
+    <string name="Coming_Soon">Coming Soon!</string>
+    <string name="Space" />
+    <string name="ResultSubmit">Submit</string>
+    <string name="UserResultQuiz">inter your result here</string>
+    <string name="NextQuestion">Next Question</string>
+    <string name="your_scure">Your Scure:</string>
+    <string name="reset">Reset</string>
+    <string name="var_pass">#@!</string>
+    <string name="abs_pass">ABC</string>
+    <string name="pass_123">123</string>
+    <string name="create_pass">CREATE!</string>
+    <string name="database">DataBase</string>
+
+    <string name="name">Name:</string>
+    <string name="city">City:</string>
+    <string name="age">Age:</string>
+    <string name="enter_your_age">Enter your age (like 23):</string>
+    <string name="enter_your_name_">Enter your name like (amir salehi):</string>
+    <string name="inter_your_city_like_tehran">inter your City (like Tehran):</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="save">Save</string>
+    <string name="view">View</string>
+    <string name="search">Search</string>
+
+</resources>

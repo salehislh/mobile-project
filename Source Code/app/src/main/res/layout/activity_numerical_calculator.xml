@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    tools:context=".activity_numerical_calculator">
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/label_input_1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputNum1"
+        android:layout_width="347dp"
+        android:layout_height="50sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingStart="20dp"
+        android:background="@drawable/edittextback"
+        android:inputType="numberDecimal"
+        android:autofillHints=""
+        tools:ignore="LabelFor,RtlSymmetry" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/label_input_2"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputNum2"
+        android:layout_width="347dp"
+        android:layout_height="50sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingStart="20dp"
+        android:background="@drawable/edittextback"
+        android:inputType="numberDecimal"
+        android:autofillHints=""
+        tools:ignore="LabelFor,RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="50sp"
+        android:maxLength="10"
+        android:textColor="#20C20E"
+        />
+
+    <androidx.appcompat.widget.ActionMenuView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="50dp"
+        tools:ignore="RtlSymmetry">
+        <!--===========================================-->
+        <android.widget.Button
+            android:id="@+id/multiply"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutten"
+            android:padding="10dp"
+            android:text="@string/multiply"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <android.widget.Button
+            android:id="@+id/division"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutten"
+            android:padding="10dp"
+            android:text="@string/division"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <!--===========================================-->
+    </androidx.appcompat.widget.ActionMenuView>
+
+    <androidx.appcompat.widget.ActionMenuView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingStart="50dp"
+        tools:ignore="RtlSymmetry">
+        <!--===========================================-->
+        <android.widget.Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/mybutten"
+            android:text="@string/add"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            />
+
+        <android.widget.Button
+            android:id="@+id/subtract"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/mybutten"
+            android:text="@string/subtract"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            />
+        <!--===========================================-->
+    </androidx.appcompat.widget.ActionMenuView>
+
+</LinearLayout>

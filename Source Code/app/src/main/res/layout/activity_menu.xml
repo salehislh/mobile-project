@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layoutDirection="ltr"
+    android:textAlignment="center">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+
+        <android.widget.Button
+            android:id="@+id/Numerical_calculator"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutten"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:text="@string/bt1_Numerical_calculator"
+            android:textSize="30sp" />
+
+        <android.widget.Button
+            android:id="@+id/BMI_Calculator"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutten"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:text="@string/bt4_BMI"
+            android:textSize="30sp" />
+
+        <android.widget.Button
+            android:id="@+id/small_big"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutten"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:text="@string/bt5_low_high"
+            android:textSize="30sp" />
+
+        <android.widget.Button
+            android:id="@+id/two_nd_degree_equation"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutten"
+            android:padding="10dp"
+            android:text="@string/bt2_2nd_degree_equation"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <android.widget.Button
+            android:id="@+id/Quiz"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutten"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:text="@string/bt6_Quiz"
+            android:textSize="30sp" />
+
+        <android.widget.Button
+            android:id="@+id/pass_generator"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutten"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:text="Password Maker"
+            android:textSize="30sp" />
+
+        <android.widget.Button
+            android:id="@+id/flashlight"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutten"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:text="Flashlight"
+            android:textSize="30sp" />
+
+        <android.widget.Button
+            android:id="@+id/DB"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutten"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:text="@string/database"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</LinearLayout>

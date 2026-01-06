@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    tools:context=".pass_generator"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/black">
+
+
+    <android.widget.Button
+        android:id="@+id/btnCreate"
+        android:layout_width="180dp"
+        android:layout_height="77dp"
+        android:background="@drawable/mybutten"
+        android:padding="20dp"
+        android:text="@string/create_pass"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="-10dp"
+        android:gravity="center"
+        android:text="@string/abs_pass"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxABC"
+        app:layout_constraintEnd_toEndOf="@+id/checkBoxABC"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/checkBoxABC" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="50dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="-10dp"
+        android:gravity="center"
+        android:text="@string/var_pass"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxVAR"
+        app:layout_constraintEnd_toEndOf="@+id/checkBoxVAR"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/checkBoxVAR" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="50dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="-10dp"
+        android:gravity="center"
+        android:text="@string/pass_123"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox123"
+        app:layout_constraintEnd_toEndOf="@+id/checkBox123"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/checkBox123" />
+
+    <CheckBox
+        android:id="@+id/checkBoxABC"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBoxVAR"
+        app:layout_constraintStart_toStartOf="@id/btnCreate" />
+
+    <CheckBox
+        android:id="@+id/checkBoxVAR"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="20dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:layout_constraintBottom_toTopOf="@+id/btnCreate"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxABC" />
+
+    <CheckBox
+        android:id="@+id/checkBox123"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:layout_constraintBottom_toBottomOf="@+id/checkBoxVAR"
+        app:layout_constraintStart_toEndOf="@+id/checkBoxVAR" />
+
+    <EditText
+        android:id="@+id/PasswordResult"
+        android:layout_width="219dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="112dp"
+        android:background="@drawable/mybutten"
+        android:ems="10"
+        android:inputType="text"
+        android:maxLength="16"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textDirection="ltr"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCreate"
+        app:layout_constraintEnd_toEndOf="@+id/btnCreate"
+        app:layout_constraintStart_toStartOf="@+id/btnCreate"
+        tools:ignore="TextFields" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
