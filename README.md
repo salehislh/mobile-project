@@ -1,6 +1,8 @@
-# 📱 Mobile Utility App - Mobile Project
+# 📱 Mobile Utility App - Mobile Project (Persian)
 
-A comprehensive mobile app built for an **associate degree project**, including 8 useful tools. You can either import it into **Android Studio** or install the **APK** directly on your device.
+- A comprehensive mobile app built for a university project,
+- including 8 useful tools.
+- You can either import it into **Android Studio** or install the **APK** directly on your device.
 
 ---
 
