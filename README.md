@@ -47,4 +47,4 @@
 
 - **Android Studio**  
 - **Java**  
-- **SQLite** (for data storage)
+- **SQLite**
