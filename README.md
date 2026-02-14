@@ -46,18 +46,5 @@
 ## 📌 Technologies Used
 
 - **Android Studio**  
-- **Kotlin / Java**  
+- **Java**  
 - **SQLite** (for data storage)
-
----
-
-## 📸 Screenshots
-
-*(Add screenshots here to make your GitHub repo more attractive)*
-
----
-
-## 💡 Notes
-
-- Each tool is designed to be simple, user-friendly, and educational.  
-- Ideal for learning Android development basics and practical mobile app creation.
